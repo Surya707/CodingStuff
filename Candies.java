@@ -1,4 +1,3 @@
-package algos;
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -8,8 +7,6 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 public class Candies {
-
-    // Complete the candies function below.
     static long candies(int n, int[] arr) {
         long L2R[]=new long[n];
         long R2L[]=new long[n];
